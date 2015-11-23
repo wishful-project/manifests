@@ -6,7 +6,7 @@
   <remote  name="github"
            fetch="ssh://git@github.com/" />
 
-  <master revision="refs/heads/master"
+  <default revision="refs/heads/master"
            remote="tub"
            sync-j="4" />
 
