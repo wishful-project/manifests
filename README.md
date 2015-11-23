@@ -5,7 +5,7 @@ Useful links:
 
 - http://source.android.com/source/using-repo.html
 - http://www.instructables.com/id/Using-Googles-repo-command-in-your-own-projects/
-
+- http://xda-university.com/as-a-developer/repo-tips-tricks
 
 Usage:
 
