@@ -1,6 +1,10 @@
 WiSHFUL repository wrapper
 ==========================
 
+Useful links:
+
+- http://source.android.com/source/using-repo.html
+- http://www.instructables.com/id/Using-Googles-repo-command-in-your-own-projects/
 
 
 Usage:
@@ -12,7 +16,7 @@ Usage:
 
 - Now that we have repo, you can clone all your projects in one easy command.
 
-        repo init -u git@gitlab.tubit.tu-berlin.de:wishful/wishful_all.git
+        repo init -u ssh://git@gitlab.tubit.tu-berlin.de/wishful/wishful_manifests.git
 
 - Then from there just run:
 
