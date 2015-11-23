@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="tub_gitlab"
+  <remote  name="tub"
            fetch="ssh://git@gitlab.tubit.tu-berlin.de/" />
 
+  <remote  name="github"
+           fetch="ssh://git@github.com/" />
+
   <default revision="refs/heads/master"
-           remote="tub_gitlab"
+           remote="tub"
            sync-j="4" />
 
-  <!-- Main -->
-  <project name="wishful/wishful_upis" remote="tub_gitlab" path="wishful_upis"/>
-  <project name="wishful/wishful_agent" remote="tub_gitlab" path="wishful_agent"/>
+  <!-- Old -->
+  <project name="WirelessTestbedsAcademy/wishful_upis/wishful_upis" remote="github" path="wishful_upis"/>
+
+  <!-- New -->
+  <project name="wishful/wishful_upis" remote="tub" path="upis"/>
+  <project name="wishful/wishful_agent" remote="tub" path="agent"/>
   <!-- Modules -->
-  <project name="wishful/wishful_module_discovery" remote="tub_gitlab" path="wishful_module_discovery"/>
-  <project name="wishful/wishful_module_ath9k" remote="tub_gitlab" path="wishful_module_ath9k"/>
-  <project name="wishful/wishful_module_iperf" remote="tub_gitlab" path="wishful_module_iperf"/>
-  <project name="wishful/wishful_module_ptp" remote="tub_gitlab" path="wishful_module_ptp"/>
+  <project name="wishful/wishful_module_discovery" remote="tub" path="module_discovery"/>
+  <project name="wishful/wishful_module_ath9k" remote="tub" path="module_ath9k"/>
+  <project name="wishful/wishful_module_iperf" remote="tub" path="module_iperf"/>
+  <project name="wishful/wishful_module_ptp" remote="tub" path="module_ptp"/>
   <!-- Showcases -->
-  <project name="wishful/sc_coexistence" remote="tub_gitlab" path="sc_coexistence"/>
+  <project name="wishful/sc_coexistence" remote="tub" path="sc_coexistence"/>
   <!-- Other -->
-  <!-- <project name="wishful/documentation" remote="tub_gitlab" path="documentation"/> -->
-  <!-- <project name="wishful/mesh-evaluation" remote="tub_gitlab" path="mesh-evaluation"/> -->
+  <!-- <project name="wishful/documentation" remote="tub" path="documentation"/> -->
+  <!-- <project name="wishful/mesh-evaluation" remote="tub" path="mesh-evaluation"/> -->
 
 </manifest>
 
