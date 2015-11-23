@@ -20,4 +20,7 @@ Usage:
 
 - Then from there just run:
 
+        # to get all repositories
         repo sync
+        # to create master branch on all
+        repo start master --all
