@@ -11,7 +11,7 @@
            sync-j="4" />
 
   <!-- Old -->
-  <project name="WirelessTestbedsAcademy/wishful_upis/wishful_upis" remote="github" path="wishful_upis"/>
+  <project name="WirelessTestbedsAcademy/wishful_upis" remote="github" path="wishful_upis"/>
 
   <!-- New -->
   <project name="wishful/wishful_upis" remote="tub" path="upis"/>
