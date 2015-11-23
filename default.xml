@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="tub_gitlab"
+           fetch="https://gitlab.tubit.tu-berlin.de/" />
+
+  <default revision="refs/heads/master"
+           remote="tub_gitlab"
+           sync-j="4" />
+
+  <!-- Main -->
+  <project name="wishful/wishful_upis" remote="tub_gitlab" path="wishful_upis"/>
+  <project name="wishful/wishful_agent" remote="tub_gitlab" path="wishful_agent"/>
+  <!-- Modules -->
+  <project name="wishful/wishful_module_discovery" remote="tub_gitlab" path="wishful_module_discovery"/>
+  <project name="wishful/wishful_module_ath9k" remote="tub_gitlab" path="wishful_module_ath9k"/>
+  <project name="wishful/wishful_module_iperf" remote="tub_gitlab" path="wishful_module_iperf"/>
+  <project name="wishful/wishful_module_ptp" remote="tub_gitlab" path="wishful_module_ptp"/>
+  <!-- Showcases -->
+  <project name="wishful/sc_coexistence" remote="tub_gitlab" path="sc_coexistence"/>
+  <!-- Other -->
+  <!-- <project name="wishful/documentation" remote="tub_gitlab" path="documentation"/> -->
+  <!-- <project name="wishful/mesh-evaluation" remote="tub_gitlab" path="mesh-evaluation"/> -->
+
+</manifest>
+
