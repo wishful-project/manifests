@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="tub_gitlab"
-           fetch="https://gitlab.tubit.tu-berlin.de/" />
+           fetch="ssh://git@gitlab.tubit.tu-berlin.de/" />
 
   <default revision="refs/heads/master"
            remote="tub_gitlab"

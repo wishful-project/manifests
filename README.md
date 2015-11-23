@@ -12,7 +12,7 @@ Usage:
 
 - Now that we have repo, you can clone all your projects in one easy command.
 
-        repo init -u https://gitlab.tubit.tu-berlin.de/wishful/wishful_all.git
+        repo init -u git@gitlab.tubit.tu-berlin.de:wishful/wishful_all.git
 
 - Then from there just run:
 
