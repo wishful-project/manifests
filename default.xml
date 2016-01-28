@@ -25,6 +25,7 @@
   <!-- Showcases -->
   <project name="wishful/sc_coexistence" remote="tub" path="sc_coexistence"/>
   <!-- Other -->
+  <project name="pruckebusch/WiSHFUL_UPI_SHOWCASES" remote="github" path="doc_upi_showcases"/>
   <!-- <project name="wishful/documentation" remote="tub" path="documentation"/> -->
   <!-- <project name="wishful/mesh-evaluation" remote="tub" path="mesh-evaluation"/> -->
 
