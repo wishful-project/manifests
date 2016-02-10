@@ -22,6 +22,7 @@
   <project name="wishful/wishful_module_ath9k" remote="tub" path="modules/ath9k"/>
   <project name="wishful/wishful_module_iperf" remote="tub" path="modules/iperf"/>
   <project name="wishful/wishful_module_ptp" remote="tub" path="modules/ptp"/>
+  <project name="wishful/athscan" remote="tub" path="modules/athscan"/>
   <!-- Showcases -->
   <project name="wishful/sc_coexistence" remote="tub" path="sc_coexistence"/>
   <!-- Other -->
