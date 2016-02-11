@@ -24,3 +24,18 @@ Usage:
         repo sync
         # to create master branch on all
         repo start master --all
+
+ - Create virtual environment:
+
+ 		#create virtual environment
+ 		virtualenv dev
+
+ 		#activate it
+ 		source ./dev/bin/activate
+
+ 		#install all dependencies (if all needed)
+ 		pip install -U -r ./.repo/manifests/requirements.txt
+
+ 		#deactivate virtual environment (if you need to exit)
+ 		deactivate
+
