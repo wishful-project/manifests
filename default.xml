@@ -18,6 +18,7 @@
   <project name="wishful/wishful_controller" remote="tub" path="controller"/>
   <project name="wishful/wishful_agent" remote="tub" path="agent"/>
   <!-- Modules -->
+  <project name="wishful/wishful_module" remote="tub" path="modules/module"/>
   <project name="wishful/wishful_module_discovery" remote="tub" path="modules/discovery"/>
   <project name="wishful/wishful_module_ath9k" remote="tub" path="modules/ath9k"/>
   <project name="wishful/wishful_module_iperf" remote="tub" path="modules/iperf"/>
