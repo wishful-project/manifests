@@ -10,8 +10,6 @@
            remote="tub"
            sync-j="4" />
 
-  <!-- Old -->
-  <!-- <project name="WirelessTestbedsAcademy/wishful_upis" remote="github" path="wishful_upis"/> -->
 
   <!-- New -->
   <project name="wishful/wishful_upis" remote="tub" path="upis"/>
@@ -26,9 +24,6 @@
   <project name="wishful/athscan" remote="tub" path="modules/athscan"/>
   <!-- Showcases -->
   <project name="wishful/sc_coexistence" remote="tub" path="sc_coexistence"/>
-
-  <!-- <project name="wishful/documentation" remote="tub" path="documentation"/> -->
-  <!-- <project name="wishful/mesh-evaluation" remote="tub" path="mesh-evaluation"/> -->
 
 </manifest>
 

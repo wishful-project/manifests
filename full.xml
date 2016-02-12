@@ -1,6 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="tub"
+           fetch="ssh://git@gitlab.tubit.tu-berlin.de/" />
+
+  <remote  name="github"
+           fetch="ssh://git@github.com/" />
+
+  <default revision="master"
+           remote="tub"
+           sync-j="4" />
+
   <!-- Old -->
   <project name="WirelessTestbedsAcademy/wishful_upis" remote="github" path="wishful_upis"/>
+
+  <!-- New -->
+  <project name="wishful/wishful_upis" remote="tub" path="upis"/>
+  <project name="wishful/wishful_controller" remote="tub" path="controller"/>
+  <project name="wishful/wishful_agent" remote="tub" path="agent"/>
+  <!-- Modules -->
+  <project name="wishful/wishful_module" remote="tub" path="modules/module"/>
+  <project name="wishful/wishful_module_discovery" remote="tub" path="modules/discovery"/>
+  <project name="wishful/wishful_module_ath9k" remote="tub" path="modules/ath9k"/>
+  <project name="wishful/wishful_module_iperf" remote="tub" path="modules/iperf"/>
+  <project name="wishful/wishful_module_ptp" remote="tub" path="modules/ptp"/>
+  <project name="wishful/athscan" remote="tub" path="modules/athscan"/>
+  <!-- Showcases -->
+  <project name="wishful/sc_coexistence" remote="tub" path="sc_coexistence"/>
+
   <!-- Other -->
   <project name="pruckebusch/WiSHFUL_UPI_SHOWCASES" remote="github" path="doc_upi_showcases"/>
+  <!-- <project name="wishful/documentation" remote="tub" path="documentation"/> -->
+  <!-- <project name="wishful/mesh-evaluation" remote="tub" path="mesh-evaluation"/> -->
+
 </manifest>
