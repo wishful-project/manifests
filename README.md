@@ -36,6 +36,14 @@ Usage:
         #install all dependencies (if all needed)
         pip install -U -r ./.repo/manifests/requirements.txt
 
+        #run example controller
+        cd controller/examples/
+        ./wishful_simple_local_controller --config ./config.yaml -v
+
+        #run example agent 
+        cd agent/bin/
+        ./wishful_agent_simple --config ./config.yaml -v
+
         #deactivate virtual environment (if you need to exit)
         deactivate
 
