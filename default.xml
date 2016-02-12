@@ -12,6 +12,7 @@
 
 
   <!-- New -->
+  <project name="wishful/wishful_framework" remote="tub" path="framework"/>
   <project name="wishful/wishful_upis" remote="tub" path="upis"/>
   <project name="wishful/wishful_controller" remote="tub" path="controller"/>
   <project name="wishful/wishful_agent" remote="tub" path="agent"/>
