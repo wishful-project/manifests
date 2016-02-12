@@ -1,0 +1,6 @@
+<manifest>
+  <!-- Old -->
+  <project name="WirelessTestbedsAcademy/wishful_upis" remote="github" path="wishful_upis"/>
+  <!-- Other -->
+  <project name="pruckebusch/WiSHFUL_UPI_SHOWCASES" remote="github" path="doc_upi_showcases"/>
+</manifest>
