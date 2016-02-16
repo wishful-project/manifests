@@ -11,19 +11,19 @@ Usage:
 
 - Download git-repo
 
-        curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-        chmod a+x ~/bin/repo
+        wget https://storage.googleapis.com/git-repo-downloads/repo
+        chmod a+x ./repo
 
 - Now that we have repo, you can clone all your projects in one easy command.
 
-        repo init -u ssh://git@gitlab.tubit.tu-berlin.de/wishful/wishful_manifests.git
+        ./repo init -u ssh://git@gitlab.tubit.tu-berlin.de/wishful/wishful_manifests.git
 
 - Then from there just run:
 
         # to get all repositories
-        repo sync
+        ./repo sync
         # to create master branch on all
-        repo start master --all
+        ./repo start master --all
 
 - Create virtual environment:
 
@@ -37,12 +37,14 @@ Usage:
         pip install -U -r ./.repo/manifests/requirements.txt
 
         #run example controller
-        cd controller/examples/
-        ./wishful_simple_local_controller --config ./config.yaml -v
+        #to enable debug mode run with parameter -v
+        cd ./examples/simple
+        ./wishful_simple_controller --config ./controller_config.yaml
 
-        #run example agent 
+        #run example agent
+        #to enable debug mode run with parameter -v
         cd agent/bin/
-        ./wishful_agent_simple --config ./config.yaml -v
+        ./wishful_simple_agent --config ./agent_config.yaml
 
         #deactivate virtual environment (if you need to exit)
         deactivate

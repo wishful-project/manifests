@@ -2,8 +2,10 @@
 ./controller
 ./agent
 ./upis
-./modules/module
-./modules/ath9k
-./modules/discovery
-./modules/iperf
-./modules/ptp
+./controller_modules/transaction
+./controller_modules/handover
+./agent_modules/module
+./agent_modules/ath9k
+./agent_modules/discovery
+./agent_modules/iperf
+./agent_modules/ptp

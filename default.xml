@@ -12,19 +12,21 @@
 
 
   <!-- New -->
-  <project name="wishful/wishful_framework" remote="tub" path="framework"/>
   <project name="wishful/wishful_upis" remote="tub" path="upis"/>
+  <project name="wishful/wishful_framework" remote="tub" path="framework"/>
   <project name="wishful/wishful_controller" remote="tub" path="controller"/>
   <project name="wishful/wishful_agent" remote="tub" path="agent"/>
-  <!-- Modules -->
-  <project name="wishful/wishful_module" remote="tub" path="modules/module"/>
-  <project name="wishful/wishful_module_discovery" remote="tub" path="modules/discovery"/>
-  <project name="wishful/wishful_module_ath9k" remote="tub" path="modules/ath9k"/>
-  <project name="wishful/wishful_module_iperf" remote="tub" path="modules/iperf"/>
-  <project name="wishful/wishful_module_ptp" remote="tub" path="modules/ptp"/>
-  <project name="wishful/athscan" remote="tub" path="modules/athscan"/>
-  <!-- Showcases -->
-  <project name="wishful/sc_coexistence" remote="tub" path="sc_coexistence"/>
+  <!-- Controller Modules -->
+  <project name="wishful/wishful_module_transaction" remote="tub" path="controller_modules/transaction"/>
+  <project name="wishful/wishful_module_handover" remote="tub" path="controller_modules/handover"/>
+  <!-- Agent Modules -->
+  <project name="wishful/wishful_module" remote="tub" path="agent_modules/module"/>
+  <project name="wishful/wishful_module_discovery" remote="tub" path="agent_modules/discovery"/>
+  <project name="wishful/wishful_module_ath9k" remote="tub" path="agent_modules/ath9k"/>
+  <project name="wishful/wishful_module_iperf" remote="tub" path="agent_modules/iperf"/>
+  <project name="wishful/wishful_module_ptp" remote="tub" path="agent_modules/ptp"/>
+  <!-- Examples -->
+  <project name="wishful/wishful_examples" remote="tub" path="examples"/>
 
 </manifest>
 
