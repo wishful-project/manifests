@@ -24,6 +24,8 @@ Usage:
         ./repo sync
         # to create master branch on all
         ./repo start master --all
+        # to check status of all repositories
+        ./repo status
 
 - Create virtual environment:
 
