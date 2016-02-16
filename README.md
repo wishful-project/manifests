@@ -43,7 +43,7 @@ Usage:
 
         #run example agent
         #to enable debug mode run with parameter -v
-        cd agent/bin/
+        cd ./examples/simple
         ./wishful_simple_agent --config ./agent_config.yaml
 
         #deactivate virtual environment (if you need to exit)
