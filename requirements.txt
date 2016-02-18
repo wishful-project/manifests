@@ -5,7 +5,8 @@
 ./controller_modules/transaction
 ./controller_modules/handover
 ./agent_modules/module
-./agent_modules/wifi_ath9k
 ./agent_modules/discovery
 ./agent_modules/iperf
 ./agent_modules/ptp
+./agent_modules/wifi
+./agent_modules/wifi_ath9k

@@ -22,9 +22,10 @@
   <!-- Agent Modules -->
   <project name="wishful/wishful_module" remote="tub" path="agent_modules/module"/>
   <project name="wishful/wishful_module_discovery" remote="tub" path="agent_modules/discovery"/>
-  <project name="wishful/wishful_module_wifi_ath9k" remote="tub" path="agent_modules/wifi_ath9k"/>
   <project name="wishful/wishful_module_iperf" remote="tub" path="agent_modules/iperf"/>
   <project name="wishful/wishful_module_ptp" remote="tub" path="agent_modules/ptp"/>
+  <project name="wishful/wishful_module_wifi" remote="tub" path="agent_modules/wifi"/>
+  <project name="wishful/wishful_module_wifi_ath9k" remote="tub" path="agent_modules/wifi_ath9k"/>
   <!-- Examples -->
   <project name="wishful/wishful_examples" remote="tub" path="examples"/>
 
