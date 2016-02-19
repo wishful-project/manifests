@@ -1,9 +1,10 @@
-./framework
-./controller
-./agent
 ./upis
+./framework
+./libs/stream_pipe
+./controller
 ./controller_modules/transaction
 ./controller_modules/handover
+./agent
 ./agent_modules/module
 ./agent_modules/discovery
 ./agent_modules/iperf

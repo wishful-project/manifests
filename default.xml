@@ -16,6 +16,8 @@
   <project name="wishful/wishful_framework" remote="tub" path="framework"/>
   <project name="wishful/wishful_controller" remote="tub" path="controller"/>
   <project name="wishful/wishful_agent" remote="tub" path="agent"/>
+  <!-- Libs -->
+  <project name="wishful/stream_pipe" remote="tub" path="libs/stream_pipe"/>
   <!-- Controller Modules -->
   <project name="wishful/wishful_module_transaction" remote="tub" path="controller_modules/transaction"/>
   <project name="wishful/wishful_module_handover" remote="tub" path="controller_modules/handover"/>

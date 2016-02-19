@@ -9,6 +9,10 @@ Useful links:
 
 Usage:
 
+- Requirements:
+
+        sudo apt-get install wget git python python-virtualenv python-dev
+
 - Download git-repo
 
         wget https://storage.googleapis.com/git-repo-downloads/repo
@@ -27,7 +31,7 @@ Usage:
         # to check status of all repositories
         ./repo status
 
-- Create virtual environment:
+- Install project:
 
         #create virtual environment
         virtualenv dev
@@ -38,6 +42,11 @@ Usage:
         #install all dependencies (if all needed)
         pip install -U -r ./.repo/manifests/requirements.txt
 
+        #deactivate virtual environment (if you need to exit)
+        deactivate
+
+- Run example:
+
         #run example controller
         #to enable debug mode run with parameter -v
         cd ./examples/simple
@@ -47,7 +56,3 @@ Usage:
         #to enable debug mode run with parameter -v
         cd ./examples/simple
         ./wishful_simple_agent --config ./agent_config.yaml
-
-        #deactivate virtual environment (if you need to exit)
-        deactivate
-
