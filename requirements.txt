@@ -5,6 +5,7 @@
 ./controller_modules/transaction
 ./controller_modules/handover
 ./agent
+./agent_modules/simple
 ./agent_modules/discovery
 ./agent_modules/iperf
 ./agent_modules/ptp
