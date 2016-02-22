@@ -4,6 +4,7 @@
 ./controller
 ./controller_modules/transaction
 ./controller_modules/handover
+./controller_modules/wireless_topology
 ./agent
 ./agent_modules/simple
 ./agent_modules/discovery
@@ -11,3 +12,5 @@
 ./agent_modules/ptp
 ./agent_modules/wifi
 ./agent_modules/wifi_ath9k
+./agent_modules/ni_sdr
+./agent_modules/rs_signal_gen
