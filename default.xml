@@ -18,15 +18,16 @@
   <project name="wishful/wishful_agent" remote="tub" path="agent"/>
   <!-- Libs -->
   <project name="wishful/stream_pipe" remote="tub" path="libs/stream_pipe"/>
+  <!-- Framework Modules -->
+  <project name="wishful/wishful_module_discovery" remote="tub" path="framework_modules/discovery"/>
+  <project name="wishful/wishful_module_ptp" remote="tub" path="framework_modules/ptp"/>
   <!-- Controller Modules -->
   <project name="wishful/wishful_module_transaction" remote="tub" path="controller_modules/transaction"/>
   <project name="wishful/wishful_module_handover" remote="tub" path="controller_modules/handover"/>
   <project name="wishful/wishful_module_wireless_topology" remote="tub" path="controller_modules/wireless_topology"/>
   <!-- Agent Modules -->
   <project name="wishful/wishful_module_simple" remote="tub" path="agent_modules/simple"/>
-  <project name="wishful/wishful_module_discovery" remote="tub" path="agent_modules/discovery"/>
   <project name="wishful/wishful_module_iperf" remote="tub" path="agent_modules/iperf"/>
-  <project name="wishful/wishful_module_ptp" remote="tub" path="agent_modules/ptp"/>
   <project name="wishful/wishful_module_wifi" remote="tub" path="agent_modules/wifi"/>
   <project name="wishful/wishful_module_wifi_ath9k" remote="tub" path="agent_modules/wifi_ath9k"/>
   <project name="wishful/wishful_module_ni_sdr" remote="tub" path="agent_modules/ni_sdr"/>
