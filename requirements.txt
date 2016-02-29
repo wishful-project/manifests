@@ -14,3 +14,5 @@
 ./agent_modules/wifi_ath9k
 ./agent_modules/ni_sdr
 ./agent_modules/rs_signal_gen
+./examples
+./tests

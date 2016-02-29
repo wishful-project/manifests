@@ -33,6 +33,8 @@
   <project name="wishful/wishful_module_rs_signal_gen" remote="tub" path="agent_modules/rs_signal_gen"/>
   <!-- Examples -->
   <project name="wishful/wishful_examples" remote="tub" path="examples"/>
+  <!-- Tests -->
+  <project name="wishful/wishful_tests" remote="tub" path="tests"/>
 
 </manifest>
 
