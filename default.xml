@@ -20,6 +20,7 @@
   <project name="wishful/stream_pipe" remote="tub" path="libs/stream_pipe"/>
   <!-- Framework Modules -->
   <project name="wishful/wishful_module_discovery" remote="tub" path="framework_modules/discovery"/>
+  <project name="wishful/wishful_module_discovery_pyre" remote="tub" path="framework_modules/discovery_pyre"/>
   <project name="wishful/wishful_module_ptp" remote="tub" path="framework_modules/ptp"/>
   <!-- Controller Modules -->
   <project name="wishful/wishful_module_transaction" remote="tub" path="controller_modules/transaction"/>

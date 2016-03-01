@@ -2,6 +2,7 @@
 ./upis
 ./framework
 ./framework_modules/discovery
+./framework_modules/discovery_pyre
 ./framework_modules/ptp
 ./controller
 ./controller_modules/transaction
