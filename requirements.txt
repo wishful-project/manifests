@@ -1,4 +1,5 @@
 ./libs/stream_pipe
+./libs/pyre
 ./upis
 ./framework
 ./framework_modules/discovery
