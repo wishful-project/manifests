@@ -28,6 +28,7 @@
   <project name="wishful/wishful_module_handover" remote="tub" path="controller_modules/handover"/>
   <project name="wishful/wishful_module_wireless_topology" remote="tub" path="controller_modules/wireless_topology"/>
   <!-- Agent Modules -->
+  <project name="wishful/wishful_module_local_control" remote="tub" path="agent_modules/local_control"/>
   <project name="wishful/wishful_module_simple" remote="tub" path="agent_modules/simple"/>
   <project name="wishful/wishful_module_iperf" remote="tub" path="agent_modules/iperf"/>
   <project name="wishful/wishful_module_wifi" remote="tub" path="agent_modules/wifi"/>

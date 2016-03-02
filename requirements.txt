@@ -10,6 +10,7 @@
 ./controller_modules/handover
 ./controller_modules/wireless_topology
 ./agent
+./agent_modules/local_control
 ./agent_modules/simple
 ./agent_modules/iperf
 ./agent_modules/wifi
