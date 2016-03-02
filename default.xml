@@ -18,7 +18,7 @@
   <project name="wishful/wishful_agent" remote="tub" path="agent"/>
   <!-- Libs -->
   <project name="wishful/stream_pipe" remote="tub" path="libs/stream_pipe"/>
-  <project name="zeromq/pyre" remote="github" path="libs/pyre"/>
+  <project name="wishful/pyre" remote="tub" path="libs/pyre"/>
   <!-- Framework Modules -->
   <project name="wishful/wishful_module_discovery" remote="tub" path="framework_modules/discovery"/>
   <project name="wishful/wishful_module_discovery_pyre" remote="tub" path="framework_modules/discovery_pyre"/>
