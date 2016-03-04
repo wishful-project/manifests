@@ -38,6 +38,7 @@
   <project name="wishful/wishful_module_rs_signal_gen" remote="tub" path="agent_modules/rs_signal_gen"/>
   <project name="wishful/wishful_module_spectral_scan_ath9k" remote="tub" path="agent_modules/spectral_scan_ath9k"/>
   <project name="wishful/wishful_module_robot" remote="tub" path="agent_modules/robot"/>
+  <project name="wishful/wishful_module_net_linux" remote="tub" path="agent_modules/net_linux"/>
   <!-- Examples -->
   <project name="wishful/wishful_examples" remote="tub" path="examples"/>
   <!-- Tests -->
