@@ -33,7 +33,7 @@
   <project name="wishful/wishful_module_simple" remote="tub" path="agent_modules/simple"/>
   <project name="wishful/wishful_module_iperf" remote="tub" path="agent_modules/iperf"/>
   <project name="wishful/wishful_module_wifi" remote="tub" path="agent_modules/wifi"/>
-  <project name="wishful/wishful_module_wifi_ath9k" remote="tub" path="agent_modules/wifi_ath9k"/>
+  <project name="wishful/wishful_module_wifi_ath" remote="tub" path="agent_modules/wifi_ath"/>
   <project name="wishful/wishful_module_ni_sdr" remote="tub" path="agent_modules/ni_sdr"/>
   <project name="wishful/wishful_module_rs_signal_gen" remote="tub" path="agent_modules/rs_signal_gen"/>
   <project name="wishful/wishful_module_spectral_scan_ath9k" remote="tub" path="agent_modules/spectral_scan_ath9k"/>
