@@ -45,6 +45,7 @@
   <project name="wishful/wishful_tests" remote="tub" path="tests"/>
   <!-- Other -->
   <project name="wishful/wishful_mininet" remote="tub" path="mininet"/>
+  <project name="wishful/wishful_project_scripts" remote="tub" path="scripts"/>
 
 </manifest>
 
