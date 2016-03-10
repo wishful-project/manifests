@@ -12,6 +12,7 @@
 ./controller_modules/hierarchical_control
 ./agent
 ./agent_modules/local_control
+./agent_modules/rules
 ./agent_modules/simple
 ./agent_modules/iperf
 ./agent_modules/wifi

@@ -30,6 +30,7 @@
   <project name="wishful/wishful_module_hierarchical_control" remote="tub" path="controller_modules/hierarchical_control"/>
   <!-- Agent Modules -->
   <project name="wishful/wishful_module_local_control" remote="tub" path="agent_modules/local_control"/>
+  <project name="wishful/wishful_module_rules" remote="tub" path="agent_modules/rules"/>
   <project name="wishful/wishful_module_simple" remote="tub" path="agent_modules/simple"/>
   <project name="wishful/wishful_module_iperf" remote="tub" path="agent_modules/iperf"/>
   <project name="wishful/wishful_module_wifi" remote="tub" path="agent_modules/wifi"/>
