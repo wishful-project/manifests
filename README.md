@@ -40,7 +40,7 @@ Usage:
         source ./dev/bin/activate
 
         #install all dependencies (if all needed)
-        pip install -U -r ./.repo/manifests/requirements.txt
+        pip3 install -U -r ./.repo/manifests/requirements.txt
 
         #deactivate virtual environment (if you need to exit)
         deactivate
