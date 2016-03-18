@@ -11,7 +11,7 @@ Usage:
 
 - Requirements:
 
-        sudo apt-get install wget git python python-virtualenv python-dev
+        sudo apt-get install wget git python python-virtualenv python-dev python3-dev python3-pip
 
 - Download git-repo
 
@@ -34,7 +34,7 @@ Usage:
 - Install project:
 
         #create virtual environment
-        virtualenv dev
+        virtualenv -p /usr/bin/python3 ./dev
 
         #activate it
         source ./dev/bin/activate
