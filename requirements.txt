@@ -1,4 +1,5 @@
 ./libs/stream_pipe
+./libs/scapy-python3
 ./libs/pyre
 ./upis
 ./framework
