@@ -7,7 +7,7 @@
            fetch="ssh://git@gitlab.tkn.tu-berlin.de/" />
 
   <remote  name="github"
-           fetch="ssh://git@github.com/" />
+           fetch="https://github.com/" />
 
   <default revision="master"
            remote="tkn"
