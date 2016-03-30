@@ -22,6 +22,7 @@
   <!-- Libs -->
   <project name="wishful/stream_pipe" remote="tkn" path="libs/stream_pipe"/>
   <project name="wishful/pyre" remote="tkn" path="libs/pyre"/>
+  <project name="wishful/python-tc" remote="tkn" path="libs/python-tc"/>
   <project name="phaethon/scapy" remote="github" path="libs/scapy-python3"/>
   <!-- Framework Modules -->
   <project name="wishful/wishful_module_discovery" remote="tkn" path="framework_modules/discovery"/>
