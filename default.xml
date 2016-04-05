@@ -45,6 +45,7 @@
   <project name="wishful/wishful_module_spectral_scan_ath9k" remote="tkn" path="agent_modules/spectral_scan_ath9k"/>
   <project name="wishful/wishful_module_robot" remote="tkn" path="agent_modules/robot"/>
   <project name="wishful/wishful_module_net_linux" remote="tkn" path="agent_modules/net_linux"/>
+  <project name="wishful/wishful_module_gnuradio" remote="tkn" path="agent_modules/gnuradio"/>
   <!-- Examples -->
   <project name="wishful/wishful_examples" remote="tkn" path="examples"/>
   <!-- Tests -->

@@ -24,6 +24,7 @@
 ./agent_modules/spectral_scan_ath9k
 ./agent_modules/robot
 ./agent_modules/net_linux
+./agent_modules/gnuradio
 ./examples
 ./tests
 ./mininet
