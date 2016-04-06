@@ -11,7 +11,6 @@
 ./controller_modules/transaction
 ./controller_modules/handover
 ./controller_modules/wireless_topology
-./controller_modules/hierarchical_control
 ./agent
 ./agent_modules/rules
 ./agent_modules/simple
