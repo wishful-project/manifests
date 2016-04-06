@@ -14,7 +14,7 @@
            sync-j="4" />
 
 
-  <!-- New -->
+  <!-- Core -->
   <project name="wishful/wishful_upis" remote="tkn" path="upis"/>
   <project name="wishful/wishful_framework" remote="tkn" path="framework"/>
   <project name="wishful/wishful_controller" remote="tkn" path="controller"/>
