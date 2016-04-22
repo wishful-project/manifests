@@ -20,7 +20,7 @@ Usage:
 
 - Now that we have repo, you can clone all your projects in one easy command.
 
-        ./repo init -u ssh://git@gitlab.tkn.tu-berlin.de/wishful/wishful_manifests.git
+        ./repo init -u ssh://git@gitlab2.tkn.tu-berlin.de/wishful/wishful_manifests.git
 
 - Then from there just run:
 
