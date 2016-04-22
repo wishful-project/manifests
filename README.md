@@ -1,11 +1,8 @@
 WiSHFUL repository wrapper
 ==========================
 
-Useful links:
-
-- http://source.android.com/source/using-repo.html
-- http://www.instructables.com/id/Using-Googles-repo-command-in-your-own-projects/
-- http://xda-university.com/as-a-developer/repo-tips-tricks
+1. Create an account at our gitlab -> Go to: https://gitlab2.tkn.tu-berlin.de/
+2. Upload your public key into you account settings.
 
 Usage:
 
