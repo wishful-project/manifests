@@ -4,7 +4,7 @@
            fetch="ssh://git@gitlab.tubit.tu-berlin.de/" />
 
   <remote  name="tkn"
-           fetch="ssh://git@gitlab.tkn.tu-berlin.de/" />
+           fetch="ssh://git@gitlab2.tkn.tu-berlin.de/" />
 
   <remote  name="github"
            fetch="https://github.com/" />
