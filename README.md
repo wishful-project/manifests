@@ -1,7 +1,7 @@
 WiSHFUL repository wrapper
 ==========================
 
-1. Create an account at our gitlab -> Go to: https://gitlab2.tkn.tu-berlin.de/
+1. Create an account at our gitlab -> Go to: https://gitlab.tkn.tu-berlin.de/
 2. Upload your public key into you account settings.
 
 Usage:
