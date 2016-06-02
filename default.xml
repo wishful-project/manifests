@@ -51,7 +51,6 @@
   <!-- Other -->
   <project name="wishful/wishful_mininet" remote="tkn" path="mininet"/>
   <project name="wishful/wishful_project_scripts" remote="tkn" path="scripts"/>
-  <project name="wishful/wishful_website" remote="tkn" path="docs"/>
 
 </manifest>
 

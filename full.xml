@@ -3,33 +3,55 @@
   <remote  name="tub"
            fetch="ssh://git@gitlab.tubit.tu-berlin.de/" />
 
+  <remote  name="tkn"
+           fetch="ssh://git@gitlab.tkn.tu-berlin.de/" />
+
   <remote  name="github"
-           fetch="ssh://git@github.com/" />
+           fetch="https://github.com/" />
 
   <default revision="master"
-           remote="tub"
+           remote="tkn"
            sync-j="4" />
 
-  <!-- Old -->
-  <project name="WirelessTestbedsAcademy/wishful_upis" remote="github" path="wishful_upis"/>
 
-  <!-- New -->
-  <project name="wishful/wishful_upis" remote="tub" path="upis"/>
-  <project name="wishful/wishful_controller" remote="tub" path="controller"/>
-  <project name="wishful/wishful_agent" remote="tub" path="agent"/>
-  <!-- Modules -->
-  <project name="wishful/wishful_module" remote="tub" path="modules/module"/>
-  <project name="wishful/wishful_module_discovery" remote="tub" path="modules/discovery"/>
-  <project name="wishful/wishful_module_ath9k" remote="tub" path="modules/ath9k"/>
-  <project name="wishful/wishful_module_iperf" remote="tub" path="modules/iperf"/>
-  <project name="wishful/wishful_module_ptp" remote="tub" path="modules/ptp"/>
-  <project name="wishful/athscan" remote="tub" path="modules/athscan"/>
-  <!-- Showcases -->
-  <project name="wishful/sc_coexistence" remote="tub" path="sc_coexistence"/>
-
+  <!-- Core -->
+  <project name="wishful/wishful_upis" remote="tkn" path="upis"/>
+  <project name="wishful/wishful_framework" remote="tkn" path="framework"/>
+  <project name="wishful/wishful_controller" remote="tkn" path="controller"/>
+  <project name="wishful/wishful_agent" remote="tkn" path="agent"/>
+  <!-- Libs -->
+  <project name="wishful/stream_pipe" remote="tkn" path="libs/stream_pipe"/>
+  <project name="wishful/pyre" remote="tkn" path="libs/pyre"/>
+  <project name="wishful/python-tc" remote="tkn" path="libs/python-tc"/>
+  <project name="phaethon/scapy" remote="github" path="libs/scapy-python3"/>
+  <!-- Framework Modules -->
+  <project name="wishful/wishful_module_discovery" remote="tkn" path="framework_modules/discovery"/>
+  <project name="wishful/wishful_module_discovery_pyre" remote="tkn" path="framework_modules/discovery_pyre"/>
+  <project name="wishful/wishful_module_ptp" remote="tkn" path="framework_modules/ptp"/>
+  <!-- Controller Modules -->
+  <project name="wishful/wishful_module_transaction" remote="tkn" path="controller_modules/transaction"/>
+  <project name="wishful/wishful_module_handover" remote="tkn" path="controller_modules/handover"/>
+  <project name="wishful/wishful_module_wireless_topology" remote="tkn" path="controller_modules/wireless_topology"/>
+  <!-- Agent Modules -->
+  <project name="wishful/wishful_module_rules" remote="tkn" path="agent_modules/rules"/>
+  <project name="wishful/wishful_module_simple" remote="tkn" path="agent_modules/simple"/>
+  <project name="wishful/wishful_module_iperf" remote="tkn" path="agent_modules/iperf"/>
+  <project name="wishful/wishful_module_wifi" remote="tkn" path="agent_modules/wifi"/>
+  <project name="wishful/wishful_module_wifi_ath" remote="tkn" path="agent_modules/wifi_ath"/>
+  <project name="wishful/wishful_module_ni_sdr" remote="tkn" path="agent_modules/ni_sdr"/>
+  <project name="wishful/wishful_module_rs_signal_gen" remote="tkn" path="agent_modules/rs_signal_gen"/>
+  <project name="wishful/wishful_module_spectral_scan_ath9k" remote="tkn" path="agent_modules/spectral_scan_ath9k"/>
+  <project name="wishful/wishful_module_robot" remote="tkn" path="agent_modules/robot"/>
+  <project name="wishful/wishful_module_net_linux" remote="tkn" path="agent_modules/net_linux"/>
+  <project name="wishful/wishful_module_gnuradio" remote="tkn" path="agent_modules/gnuradio"/>
+  <!-- Examples -->
+  <project name="wishful/wishful_examples" remote="tkn" path="examples"/>
+  <!-- Tests -->
+  <project name="wishful/wishful_tests" remote="tkn" path="tests"/>
   <!-- Other -->
-  <project name="pruckebusch/WiSHFUL_UPI_SHOWCASES" remote="github" path="doc_upi_showcases"/>
-  <!-- <project name="wishful/documentation" remote="tub" path="documentation"/> -->
-  <!-- <project name="wishful/mesh-evaluation" remote="tub" path="mesh-evaluation"/> -->
+  <project name="wishful/wishful_mininet" remote="tkn" path="mininet"/>
+  <project name="wishful/wishful_project_scripts" remote="tkn" path="scripts"/>
+  <project name="wishful/wishful_website" remote="tkn" path="docs"/>
 
 </manifest>
+
