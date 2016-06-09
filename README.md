@@ -1,14 +1,14 @@
 User Installation
 =================
 
-1. Configure your git credentials:
+1. Install requirements:
+
+        sudo apt-get install wget git python python-virtualenv python-dev python3-dev python3-pip
+
+2. Configure your git credentials:
 
         git config --global user.name "Your Name"
         git config --global user.email "you@example.com"
-
-2. Install requirements:
-
-        sudo apt-get install wget git python python-virtualenv python-dev python3-dev python3-pip
 
 3. Download git-repo:
 
@@ -44,16 +44,21 @@ Developer Installation
 
         sudo apt-get install wget git python python-virtualenv python-dev python3-dev python3-pip
 
-4. Download git-repo:
+4. Configure your git credentials:
+
+        git config --global user.name "Your Name"
+        git config --global user.email "you@example.com"
+
+5. Download git-repo:
 
         wget https://storage.googleapis.com/git-repo-downloads/repo
         chmod a+x ./repo
 
-5. Now that we have repo, you can clone all your projects in one easy command:
+5. Get manifest files:
 
         ./repo init -u ssh://git@gitlab.tkn.tu-berlin.de/wishful/wishful_manifests.git
 
-6. Then from there just run:
+6. Get all repositories:
 
         # to get all repositories
         ./repo sync
