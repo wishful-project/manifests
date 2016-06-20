@@ -17,7 +17,7 @@ User Installation
 
 4. Get manifest files:
 
-        ./repo init -u https://gitlab.tkn.tu-berlin.de/wishful/wishful_manifests.git
+        ./repo init -u https://github.com/wishful-project/manifests.git
 
 5. Configure user-only manifest file:
 
@@ -36,7 +36,7 @@ User Installation
 Developer Installation
 ======================
 
-1. Create an account at our gitlab -> Go to: https://gitlab.tkn.tu-berlin.de/
+1. Create an account at our gitlab -> Go to: https://github.com/
 
 2. Upload your public key into you account settings.
 
@@ -56,7 +56,7 @@ Developer Installation
 
 5. Get manifest files:
 
-        ./repo init -u ssh://git@gitlab.tkn.tu-berlin.de/wishful/wishful_manifests.git
+        ./repo init -u ssh://git@github.com/wishful-project/manifests.git
 
 6. Get all repositories:
 

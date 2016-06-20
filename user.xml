@@ -1,56 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="tub"
-           fetch="ssh://git@gitlab.tubit.tu-berlin.de/" />
-
-  <remote  name="tkn"
-           fetch="https://gitlab.tkn.tu-berlin.de/" />
+  <remote  name="origin"
+           fetch="https://github.com/wishful-project/" />
 
   <remote  name="github"
            fetch="https://github.com/" />
 
   <default revision="master"
-           remote="tkn"
+           remote="origin"
            sync-j="4" />
 
 
   <!-- Core -->
-  <project name="wishful/wishful_upis.git" remote="tkn" path="upis"/>
-  <project name="wishful/wishful_framework.git" remote="tkn" path="framework"/>
-  <project name="wishful/wishful_controller.git" remote="tkn" path="controller"/>
-  <project name="wishful/wishful_agent.git" remote="tkn" path="agent"/>
+  <project name="wishful_upis" path="upis"/>
+  <project name="framework" path="framework"/>
+  <project name="controller" path="controller"/>
+  <project name="agent" path="agent"/>
   <!-- Libs -->
-  <project name="wishful/stream_pipe.git" remote="tkn" path="libs/stream_pipe"/>
-  <project name="wishful/pyre.git" remote="tkn" path="libs/pyre"/>
-  <project name="wishful/python-tc.git" remote="tkn" path="libs/python-tc"/>
+  <project name="stream_pipe" path="libs/stream_pipe"/>
+  <project name="pyre" path="libs/pyre"/>
+  <project name="python-tc" path="libs/python-tc"/>
   <project name="phaethon/scapy" remote="github" path="libs/scapy-python3"/>
   <!-- Framework Modules -->
-  <project name="wishful/wishful_module_discovery.git" remote="tkn" path="framework_modules/discovery"/>
-  <project name="wishful/wishful_module_discovery_pyre.git" remote="tkn" path="framework_modules/discovery_pyre"/>
-  <project name="wishful/wishful_module_ptp.git" remote="tkn" path="framework_modules/ptp"/>
+  <project name="module_discovery" path="framework_modules/discovery"/>
+  <project name="module_discovery_pyre" path="framework_modules/discovery_pyre"/>
   <!-- Controller Modules -->
-  <project name="wishful/wishful_module_transaction.git" remote="tkn" path="controller_modules/transaction"/>
-  <project name="wishful/wishful_module_handover.git" remote="tkn" path="controller_modules/handover"/>
-  <project name="wishful/wishful_module_wireless_topology.git" remote="tkn" path="controller_modules/wireless_topology"/>
+  <project name="module_handover" path="controller_modules/handover"/>
+  <project name="module_wireless_topology" path="controller_modules/wireless_topology"/>
   <!-- Agent Modules -->
-  <project name="wishful/wishful_module_rules.git" remote="tkn" path="agent_modules/rules"/>
-  <project name="wishful/wishful_module_simple.git" remote="tkn" path="agent_modules/simple"/>
-  <project name="wishful/wishful_module_iperf.git" remote="tkn" path="agent_modules/iperf"/>
-  <project name="wishful/wishful_module_wifi.git" remote="tkn" path="agent_modules/wifi"/>
-  <project name="wishful/wishful_module_wifi_ath.git" remote="tkn" path="agent_modules/wifi_ath"/>
-  <project name="wishful/wishful_module_ni_sdr.git" remote="tkn" path="agent_modules/ni_sdr"/>
-  <project name="wishful/wishful_module_rs_signal_gen.git" remote="tkn" path="agent_modules/rs_signal_gen"/>
-  <project name="wishful/wishful_module_spectral_scan_ath9k.git" remote="tkn" path="agent_modules/spectral_scan_ath9k"/>
-  <project name="wishful/wishful_module_robot.git" remote="tkn" path="agent_modules/robot"/>
-  <project name="wishful/wishful_module_net_linux.git" remote="tkn" path="agent_modules/net_linux"/>
-  <project name="wishful/wishful_module_gnuradio.git" remote="tkn" path="agent_modules/gnuradio"/>
+  <project name="module_rules" path="agent_modules/rules"/>
+  <project name="module_simple" path="agent_modules/simple"/>
+  <project name="module_iperf" path="agent_modules/iperf"/>
+  <project name="module_wifi" path="agent_modules/wifi"/>
+  <project name="module_wifi_ath" path="agent_modules/wifi_ath"/>
+  <project name="module_wifi_wmp" path="agent_modules/wifi_wmp"/>
+  <project name="module_ni_sdr" path="agent_modules/ni_sdr"/>
+  <project name="module_rs_signal_gen" path="agent_modules/rs_signal_gen"/>
+  <project name="module_robot" path="agent_modules/robot"/>
+  <project name="module_net_linux" path="agent_modules/net_linux"/>
+  <project name="module_gnuradio" path="agent_modules/gnuradio"/>
+  <project name="module_spectral_scan_ath9k" path="agent_modules/spectral_scan_ath9k"/>
+  <project name="module_contiki" path="agent_modules/contiki"/>
   <!-- Examples -->
-  <project name="wishful/wishful_examples.git" remote="tkn" path="examples"/>
+  <project name="examples" path="examples"/>
   <!-- Tests -->
-  <project name="wishful/wishful_tests.git" remote="tkn" path="tests"/>
+  <project name="tests" path="tests"/>
   <!-- Other -->
-  <project name="wishful/wishful_mininet.git" remote="tkn" path="mininet"/>
-  <project name="wishful/wishful_project_scripts.git" remote="tkn" path="scripts"/>
+  <project name="wishful_mininet" path="mininet"/>
+  <project name="project_scripts" path="scripts"/>
 
 </manifest>
 
