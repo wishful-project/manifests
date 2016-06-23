@@ -6,9 +6,7 @@
 ./framework
 ./framework_modules/discovery
 ./framework_modules/discovery_pyre
-./framework_modules/ptp
 ./controller
-./controller_modules/transaction
 ./controller_modules/handover
 ./controller_modules/wireless_topology
 ./agent
