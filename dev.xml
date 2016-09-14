@@ -6,7 +6,7 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <default revision="dev"
+  <default revision="master"
            remote="origin"
            sync-j="4" />
 

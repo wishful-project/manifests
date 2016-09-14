@@ -17,20 +17,20 @@ User Installation
 
 4. Get manifest files:
 
-        ./repo init -u https://github.com/wishful-project/manifests.git
+        python2 ./repo init -u https://github.com/wishful-project/manifests.git
 
 5. Configure user-only manifest file:
 
-        ./repo init -m user.xml
+        python2 ./repo init -m user.xml
 
 6. Get all repositories:
 
         # to get all repositories
-        ./repo sync
+        python2 ./repo sync
         # to create master branch on all
-        ./repo start master --all
+        python2 ./repo start master --all
         # to check status of all repositories
-        ./repo status
+        python2 ./repo status
 
 
 Developer Installation
