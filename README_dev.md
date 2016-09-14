@@ -1,38 +1,3 @@
-User Installation
-=================
-
-1. Install requirements:
-
-        sudo apt-get install wget git python python-virtualenv python-dev python3-dev python3-pip
-
-2. Configure your git credentials:
-
-        git config --global user.name "Your Name"
-        git config --global user.email "you@example.com"
-
-3. Download git-repo:
-
-        wget https://storage.googleapis.com/git-repo-downloads/repo
-        chmod a+x ./repo
-
-4. Get manifest files:
-
-        python2 ./repo init -u https://github.com/wishful-project/manifests.git
-
-5. Configure user-only manifest file:
-
-        python2 ./repo init -m user.xml
-
-6. Get all repositories:
-
-        # to get all repositories
-        python2 ./repo sync
-        # set master branch for all repos
-        python2 ./repo forall -c 'git checkout master'
-        # to check status of all repositories
-        python2 ./repo status
-
-
 Developer Installation
 ======================
 
@@ -57,13 +22,14 @@ Developer Installation
 5. Get manifest files:
 
         python2 ./repo init -u ssh://git@github.com/wishful-project/manifests.git
+        python2 ./repo init -m dev.xml
 
 6. Get all repositories:
 
         # to get all repositories
         python2 ./repo sync
-        # set master branch for all repos
-        python2 ./repo forall -c 'git checkout master'
+        # to create master branch on all
+        python2 ./repo forall -c 'git checkout dev'
         # to check status of all repositories
         python2 ./repo status
 
@@ -81,7 +47,7 @@ Installation
 
 3. Install all dependencies (if all needed):
 
-        pip3 install -U -r ./.repo/manifests/requirements.txt
+        pip3 install -U -r ./.repo/manifests/requirements_dev.txt
 
 4. Deactivate virtual environment (if you need to exit):
 
@@ -93,11 +59,11 @@ Running examples
 1. Example controller:
 
         #to enable debug mode run with parameter -v
-        cd ./examples/simple
-        ./wishful_simple_controller --config ./controller_config.yaml
+        cd ./examples/simple_controller
+        wishful-agent --config ./config_master.yaml
 
 2. Example agent
 
         #to enable debug mode run with parameter -v
-        cd ./examples/simple
-        ./wishful_simple_agent --config ./agent_config.yaml
+        cd ./examples/simple_controller
+        wishful-agent --config ./config_slave.yaml
