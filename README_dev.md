@@ -28,7 +28,9 @@ Developer Installation
 
         # to get all repositories
         python2 ./repo sync
-        # to create master branch on all
+        # set master branch for all repos
+        python2 ./repo forall -c 'git checkout master'
+        # set dev branch if repo has one
         python2 ./repo forall -c 'git checkout dev'
         # to check status of all repositories
         python2 ./repo status
