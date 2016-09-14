@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin"
+           fetch="ssh://git@github.com/wishful-project/" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <default revision="dev"
+           remote="origin"
+           sync-j="4" />
+
+  <!-- Core -->
+  <project name="wishful_upis" path="upis"/>
+  <project name="agent" path="agent"/>
+  <!-- Modules -->
+  <project name="module_discovery" path="modules/discovery"/>
+  <project name="module_discovery_pyre" path="modules/discovery_pyre"/>
+  <project name="module_handover" path="modules/handover"/>
+  <project name="module_wireless_topology" path="modules/wireless_topology"/>
+  <project name="module_rules" path="modules/rules"/>
+  <project name="module_simple" path="modules/simple"/>
+  <project name="module_iperf" path="modules/iperf"/>
+  <project name="module_wifi" path="modules/wifi"/>
+  <project name="module_wifi_ath" path="modules/wifi_ath"/>
+  <project name="module_wifi_wmp" path="modules/wifi_wmp"/>
+  <project name="module_ni_sdr" path="modules/ni_sdr"/>
+  <project name="module_rs_signal_gen" path="modules/rs_signal_gen"/>
+  <project name="module_robot" path="modules/robot"/>
+  <project name="module_net_linux" path="modules/net_linux"/>
+  <project name="module_gnuradio" path="modules/gnuradio"/>
+  <project name="module_spectral_scan_ath9k" path="modules/spectral_scan_ath9k"/>
+  <project name="module_contiki" path="modules/contiki"/>
+  <!-- Libs //should be part of modules if required - to be removed from here -->
+  <project name="stream_pipe" path="libs/stream_pipe"/>
+  <project name="pyre" path="libs/pyre"/>
+  <project name="python-tc" path="libs/python-tc"/>
+  <project name="phaethon/scapy" remote="github" path="libs/scapy-python3"/>
+  <!-- Examples -->
+  <project name="examples" path="examples"/>
+  <!-- Tests -->
+  <project name="tests" path="tests"/>
+  <!-- Other -->
+  <project name="wishful_mininet" path="mininet"/>
+
+</manifest>
+
