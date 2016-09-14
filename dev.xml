@@ -38,8 +38,6 @@
   <project name="phaethon/scapy" remote="github" path="libs/scapy-python3"/>
   <!-- Examples -->
   <project name="examples" path="examples"/>
-  <!-- Tests -->
-  <project name="tests" path="tests"/>
   <!-- Other -->
   <project name="wishful_mininet" path="mininet"/>
 
