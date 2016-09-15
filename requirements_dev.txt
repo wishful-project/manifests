@@ -1,7 +1,7 @@
-./libs/stream_pipe
-./libs/scapy-python3
-./libs/pyre
-./libs/python-tc
+-e git+https://github.com/wishful-project/stream_pipe.git#egg=stream_pipe
+-e git+https://github.com/wishful-project/pyre.git#egg=pyre
+-e git+https://github.com/wishful-project/python-tc.git#egg=python-tc
+-e git+https://github.com/phaethon/scapy.git#egg=master
 ./upis
 ./agent
 ./modules/discovery
