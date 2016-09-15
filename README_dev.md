@@ -58,14 +58,18 @@ Installation
 Running examples
 ================
 
-1. Example controller:
+1. Only local node:
 
-        #to enable debug mode run with parameter -v
+        wishful-agent --config ./config_local.yaml
+
+2. Global and local nodes (run with -v for debug mode):
+        # start broker to enable data exchange
+        wishful-broker
+
+        # start global node
         cd ./examples/simple_controller
         wishful-agent --config ./config_master.yaml
 
-2. Example agent
-
-        #to enable debug mode run with parameter -v
+        # start local node
         cd ./examples/simple_controller
         wishful-agent --config ./config_slave.yaml
