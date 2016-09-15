@@ -63,6 +63,7 @@ Running examples
         wishful-agent --config ./config_local.yaml
 
 2. Global and local nodes (run with -v for debug mode):
+
         # start broker to enable data exchange
         wishful-broker
 
