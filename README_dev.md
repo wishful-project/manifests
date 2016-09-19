@@ -34,6 +34,8 @@ Developer Installation
         python2 ./repo forall -c 'git checkout dev'
         # to check status of all repositories
         python2 ./repo status
+        # to pull all repositories at once:
+        python2 ./repo forall -c 'git pull --rebase'
 
 
 Installation
