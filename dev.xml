@@ -14,23 +14,25 @@
   <project name="wishful_upis" path="upis"/>
   <project name="agent" path="agent"/>
   <!-- Modules -->
-  <project name="module_discovery" path="modules/discovery"/>
-  <project name="module_discovery_pyre" path="modules/discovery_pyre"/>
-  <project name="module_handover" path="modules/handover"/>
-  <project name="module_wireless_topology" path="modules/wireless_topology"/>
-  <project name="module_rules" path="modules/rules"/>
   <project name="module_simple" path="modules/simple"/>
   <project name="module_iperf" path="modules/iperf"/>
+  <project name="module_net_linux" path="modules/net_linux"/>
   <project name="module_wifi" path="modules/wifi"/>
   <project name="module_wifi_ath" path="modules/wifi_ath"/>
   <project name="module_wifi_wmp" path="modules/wifi_wmp"/>
   <project name="module_ni_sdr" path="modules/ni_sdr"/>
   <project name="module_rs_signal_gen" path="modules/rs_signal_gen"/>
   <project name="module_robot" path="modules/robot"/>
-  <project name="module_net_linux" path="modules/net_linux"/>
   <project name="module_gnuradio" path="modules/gnuradio"/>
   <project name="module_spectral_scan_ath9k" path="modules/spectral_scan_ath9k"/>
   <project name="module_contiki" path="modules/contiki"/>
+  <project name="module_rules" path="modules/rules"/>
+  <!-- Apps -->
+  <project name="module_discovery" path="apps/discovery"/>
+  <project name="module_discovery_pyre" path="apps/discovery_pyre"/>
+  <project name="module_handover" path="apps/handover"/>
+  <project name="module_wireless_topology" path="apps/wireless_topology"/>
+  <project name="wireless_stats" path="apps/wireless_stats"/>
   <!-- Examples -->
   <project name="examples" path="examples"/>
   <!-- Other -->
