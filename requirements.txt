@@ -21,6 +21,7 @@
 ./agent_modules/robot
 ./agent_modules/net_linux
 ./agent_modules/gnuradio
+./agent_modules/contiki
 ./examples
 ./tests
 ./mininet
