@@ -2,23 +2,23 @@
 -e git+https://github.com/wishful-project/pyre.git#egg=pyre
 -e git+https://github.com/wishful-project/python-tc.git#egg=python-tc
 -e git+https://github.com/phaethon/scapy.git#egg=scapy-python3
-./upis
-./agent
-./modules/simple
-./modules/iperf
-./modules/net_linux
-./modules/wifi
-./modules/wifi_ath
-./modules/spectral_scan_ath9k
-./modules/ni_sdr
-./modules/rs_signal_gen
-./modules/robot
-./modules/gnuradio
-./modules/rules
-./apps/discovery
-./apps/discovery_pyre
-./apps/handover
-./apps/wireless_topology
-./apps/wireless_stats
-./examples
-./mininet
+-e ./upis
+-e ./agent
+-e ./modules/simple
+-e ./modules/iperf
+-e ./modules/net_linux
+-e ./modules/wifi
+-e ./modules/wifi_ath
+-e ./modules/spectral_scan_ath9k
+-e ./modules/ni_sdr
+-e ./modules/rs_signal_gen
+-e ./modules/robot
+-e ./modules/gnuradio
+-e ./modules/rules
+-e ./apps/discovery
+-e ./apps/discovery_pyre
+-e ./apps/handover
+-e ./apps/wireless_topology
+-e ./apps/wireless_stats
+-e ./examples
+-e ./mininet
