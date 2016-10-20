@@ -6,12 +6,12 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="wirelesstestbedacademy"
+           fetch="https://github.com/WirelessTestbedsAcademy/" />
+
   <default revision="master"
            remote="origin"
            sync-j="4" />
-  
-  <remote  name="wirelesstestbedacademy"
-           fetch="https://github.com/WirelessTestbedsAcademy/" />
 
 
   <!-- Core -->
