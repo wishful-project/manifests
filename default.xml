@@ -9,6 +9,9 @@
   <default revision="master"
            remote="origin"
            sync-j="4" />
+  
+  <remote  name="wirelesstestbedacademy"
+           fetch="https://github.com/WirelessTestbedsAcademy/" />
 
 
   <!-- Core -->
@@ -48,6 +51,7 @@
   <!-- Other -->
   <project name="wishful_mininet" path="mininet"/>
   <project name="project_scripts" path="scripts"/>
+  <project name="ExperimentationTools" remote="wirelesstestbedacademy" path="experimentation_tools"/>
 
 </manifest>
 
