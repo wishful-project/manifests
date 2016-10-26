@@ -22,6 +22,7 @@
 ./agent_modules/net_linux
 ./agent_modules/gnuradio
 ./agent_modules/contiki
+./agent_modules/iris
 ./examples
 ./tests
 ./mininet
