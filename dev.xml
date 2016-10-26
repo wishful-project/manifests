@@ -29,6 +29,7 @@
   <project name="module_gnuradio" path="modules/gnuradio"/>
   <project name="module_spectral_scan_ath9k" path="modules/spectral_scan_ath9k"/>
   <project name="module_contiki" path="modules/contiki"/>
+  <project name="module_iris" path="modules/iris"/>
   <project name="module_rules" path="modules/rules"/>
   <!-- Apps -->
   <project name="module_discovery" path="apps/discovery"/>
