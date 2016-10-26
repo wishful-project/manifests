@@ -44,6 +44,8 @@
   <project name="module_robot" path="agent_modules/robot"/>
   <project name="module_net_linux" path="agent_modules/net_linux"/>
   <project name="module_gnuradio" path="agent_modules/gnuradio"/>
+  <project name="module_contiki" path="agent_modules/contiki"/>
+  <project name="module_iris" path="agent_modules/iris"/>
   <!-- Examples -->
   <project name="examples" path="examples"/>
   <!-- Tests -->
