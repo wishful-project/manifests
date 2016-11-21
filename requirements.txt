@@ -2,6 +2,7 @@
 ./libs/scapy-python3
 ./libs/pyre
 ./libs/python-tc
+./libs/coapthon
 ./upis
 ./framework
 ./framework_modules/discovery

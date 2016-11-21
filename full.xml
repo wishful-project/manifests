@@ -24,6 +24,7 @@
   <project name="wishful/pyre" path="libs/pyre"/>
   <project name="wishful/python-tc" path="libs/python-tc"/>
   <project name="phaethon/scapy" remote="github" path="libs/scapy-python3"/>
+  <project name="Tanganelli/CoAPthon" remote="github" path="libs/coapthon"/>
   <!-- Framework Modules -->
   <project name="module_discovery" path="framework_modules/discovery"/>
   <project name="module_discovery_pyre" path="framework_modules/discovery_pyre"/>
