@@ -2,7 +2,8 @@
 ./libs/scapy-python3
 ./libs/pyre
 ./libs/python-tc
-./libs/coapthon
+#./libs/coapthon
+./libs/aiocoap
 ./upis
 ./framework
 ./framework_modules/discovery
