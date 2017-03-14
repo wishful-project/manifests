@@ -48,6 +48,7 @@
   <project name="module_gnuradio" path="agent_modules/gnuradio"/>
   <project name="module_contiki" path="agent_modules/contiki"/>
   <project name="module_iris" path="agent_modules/iris"/>
+  <project name="module_lte" path="agent_modules/lte"/>
   <!-- Examples -->
   <project name="examples" path="examples"/>
   <!-- Tests -->

@@ -31,6 +31,7 @@
   <project name="module_contiki" path="modules/contiki"/>
   <project name="module_iris" path="modules/iris"/>
   <project name="module_rules" path="modules/rules"/>
+  <project name="module_lte" path="modules/lte"/>
   <!-- Apps -->
   <project name="module_discovery" path="apps/discovery"/>
   <project name="module_discovery_pyre" path="apps/discovery_pyre"/>
