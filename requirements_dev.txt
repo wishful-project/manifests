@@ -22,3 +22,4 @@
 -e ./apps/wireless_stats
 -e ./examples
 -e ./mininet
+-e ./final_showcase
