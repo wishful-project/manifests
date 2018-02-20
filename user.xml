@@ -50,6 +50,8 @@
   <project name="module_lte" path="agent_modules/lte"/>
   <!-- Examples -->
   <project name="examples" path="examples"/>
+  <!-- Showcase -->
+  <project name="final_showcase" path="final_showcase"/>
   <!-- Tests -->
   <project name="tests" path="tests"/>
   <!-- Other -->

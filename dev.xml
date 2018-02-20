@@ -40,6 +40,8 @@
   <project name="wireless_stats" path="apps/wireless_stats"/>
   <!-- Examples -->
   <project name="examples" path="examples"/>
+  <!-- Showcase -->
+  <project name="final_showcase" path="final_showcase"/>
   <!-- Other -->
   <project name="wishful_mininet" path="mininet"/>
   <project name="ExperimentationTools" remote="wirelesstestbedacademy" path="experimentation_tools"/>
