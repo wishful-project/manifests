@@ -25,6 +25,7 @@
 ./agent_modules/gnuradio
 ./agent_modules/contiki
 ./agent_modules/iris
+./agent_modules/module_envemu
 ./examples
 ./final_showcase
 #./tests
