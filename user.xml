@@ -48,6 +48,7 @@
   <project name="module_contiki" path="agent_modules/contiki"/>
   <project name="module_iris" path="agent_modules/iris"/>
   <project name="module_lte" path="agent_modules/lte"/>
+  <project name="module_envemu" path="agent_modules/module_envemu"/>
   <!-- Examples -->
   <project name="examples" path="examples"/>
   <!-- Showcase -->
